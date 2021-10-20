@@ -5,7 +5,36 @@ body{
 
 h1 {
   font-size: 95px!important;
+  text-align: center;
+  position: relative;
+  border: 3px solid;
+  border-color: white;
+  padding: 4px 28px;
+  animation: Bordercolorinfinite 4s infinite;
+  transition: 2s;
 }
+
+@keyframes Bordercolorinfinite {
+  0% {
+    border-color: white;
+  }
+  20% {
+    border-color: red;
+  }
+  40% {
+    border-color: yellow;
+  }
+  60% {
+    border-color: lime;
+  }
+  80% {
+    border-color: aqua;
+  }
+  100% {
+    border-color: white;
+  }
+}
+
 .fl_password-container{
   background-color: rgba(139, 69, 19, 0.856);
   margin: 160px 150px!important;
@@ -22,3 +51,4 @@ h1 {
   font-size: 25px;
   text-align: center;
 }
+
