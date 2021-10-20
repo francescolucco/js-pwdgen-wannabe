@@ -7,7 +7,7 @@ h1 {
   font-size: 95px!important;
   text-align: center;
   position: relative;
-  border: 3px solid;
+  border: 5px solid;
   border-color: white;
   padding: 4px 28px;
   animation: Bordercolorinfinite 4s infinite;
@@ -35,9 +35,18 @@ h1 {
   }
 }
 
+h2{
+  font-size: 35px!important;
+  text-transform: uppercase;
+}
+
 .fl_password-container{
   background-color: rgba(139, 69, 19, 0.856);
-  margin: 160px 150px!important;
+  margin: 120px 150px 40px!important;
+}
+.fl_password-container2{
+  background-color: rgba(139, 69, 19, 0.856);
+  margin: 20px 150px!important;
 }
 .fl-info1{
   padding-top: 50px!important;
@@ -46,7 +55,7 @@ h1 {
   padding: 10px 0!important;
 }
 .fl_layover{
-  margin: 280px 150px!important;
+  margin: 150px 150px!important;
   background-color: rgba(0, 0, 0, 0.7);
   font-size: 25px;
   text-align: center;
